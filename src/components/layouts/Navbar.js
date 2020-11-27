@@ -36,8 +36,8 @@ const Navbar = () => {
             <Link
               className="nav-link"
               to="/"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
+              // data-toggle="collapse"
+              // data-target="#navbarSupportedContent"
             >
               Home <span className="sr-only">(current)</span>
             </Link>
@@ -46,8 +46,8 @@ const Navbar = () => {
             <Link
               className="nav-link"
               to="/apod"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
+              // data-toggle="collapse"
+              // data-target="#navbarSupportedContent"
             >
               APOD
             </Link>
@@ -56,8 +56,8 @@ const Navbar = () => {
             <Link
               className="nav-link"
               to="/neos"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
+              // data-toggle="collapse"
+              // data-target="#navbarSupportedContent"
             >
               NEOs
             </Link>
@@ -67,8 +67,8 @@ const Navbar = () => {
             <Link
               className="nav-link"
               to="/about"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
+              // data-toggle="collapse"
+              // data-target="#navbarSupportedContent"
             >
               About
             </Link>
