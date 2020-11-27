@@ -8,6 +8,7 @@ import Apod from "./components/apod/Apod";
 import Home from "./components/pages/Home";
 import Neos from "./components/neos/Neos";
 import About from "./components/pages/About";
+import Mars from "./components/mars/Mars";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/apod" component={Apod} />
           <Route path="/neos" component={Neos} />
           <Route path="/about" component={About} />
+          <Route path="/mars" component={Mars} />
         </Switch>
         {/* <Cards /> */}
       </div>

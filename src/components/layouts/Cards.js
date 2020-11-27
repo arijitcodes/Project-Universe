@@ -38,6 +38,18 @@ const Cards = () => {
             buttonText="Let's Check it Out"
             linkTo="neos"
           />
+          <Card
+            title="MARS - Weather Updates &amp; Rovar Images"
+            body="Every Space agency is trying their best to compete in the MARS Race. Don't you wonder sometimes, how would it feel to be there, on mars ? How will it be there after few hundred years, when Humans will be staying there, living full life there ? Want to prepare yourself and know more about MARS ?"
+            buttonText="Let's Check it Out"
+            linkTo="mars"
+          />
+          <Card
+            title="About PROJECT UNIVERSE &amp; The Developer"
+            body="Hi there fellow Aliens! Want to know who make this app for you all so that you can get information about the Knowledge of Human Species about the SPACE ? Want to know which Tiny Human Designed and Developed this app ? Want to know how he did it ? Why don't you check it out..."
+            buttonText="Let's Check it Out"
+            linkTo="about"
+          />
           {/* <Card
             title="Near Earth Objects - Asteroids"
             body=" Ever wanted to see an Asteroid passing by ? Or may be some 'Unknown Object in the Space ;) ?"

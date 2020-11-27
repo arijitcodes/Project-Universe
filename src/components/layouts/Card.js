@@ -21,7 +21,7 @@ const Card = ({ title, body, buttonText, linkTo }) => {
         <div
           className="card mx-auto"
           style={{
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            backgroundColor: "rgba(0, 0, 0, 0.6)",
             height: "100%",
             width: "100%",
           }}

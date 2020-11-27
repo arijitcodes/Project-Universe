@@ -62,6 +62,16 @@ const Navbar = () => {
               NEOs
             </Link>
           </li>
+          <li className="nav-item">
+            <Link
+              className="nav-link"
+              to="/mars"
+              // data-toggle="collapse"
+              // data-target="#navbarSupportedContent"
+            >
+              MARS
+            </Link>
+          </li>
           <li className="nav-item nav-link d-none d-md-block">|</li>
           <li className="nav-item">
             <Link
