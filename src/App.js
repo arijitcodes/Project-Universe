@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+
+// COmponents
+import Navbar from "./components/layouts/Navbar";
+import Apod from "./components/apod/Apod";
+import Home from "./components/pages/Home";
+import Neos from "./components/neos/Neos";
+import About from "./components/pages/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <div className="container">
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path="/apod" component={Apod} />
+          <Route path="/neos" component={Neos} />
+          <Route path="/about" component={About} />
+        </Switch>
+        {/* <Cards /> */}
+      </div>
+    </Router>
   );
 }
 
