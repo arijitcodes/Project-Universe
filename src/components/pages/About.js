@@ -57,10 +57,12 @@ const About = () => {
                     <td>ReactJS, NodeJS</td>
                   </tr>
                   <tr>
-                    <td align="right" className="align-baseline">
-                      Others:
+                    <td align="right" className="align-middle">
+                      Other Technologies:
                     </td>
-                    <td>Axios, React Hooks, JSX, JS, ES6, Bootstrap etc.</td>
+                    <td className="align-middle">
+                      Axios, React Hooks, JSX, JS, ES6, Bootstrap etc.
+                    </td>
                   </tr>
                   <tr>
                     <td align="right" className="align-middle">
