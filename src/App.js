@@ -10,6 +10,7 @@ import Neos from "./components/neos/Neos";
 import About from "./components/pages/About";
 import Mars from "./components/mars/Mars";
 import Footer from "./components/layouts/Footer";
+import Error from "./components/pages/Error";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path="/neos" component={Neos} />
           <Route path="/about" component={About} />
           <Route path="/mars" component={Mars} />
+
+          <Route path="*" component={Error} />
         </Switch>
       </div>
       <Footer />
