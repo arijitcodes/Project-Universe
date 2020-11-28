@@ -42,7 +42,6 @@ NOTE: This App is Still Under Development and more features will come soon!
 <hr>
 
 <hr>
-<hr>
 
 # Getting Started with Create React App
 
