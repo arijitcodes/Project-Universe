@@ -1,3 +1,49 @@
+# Contact App
+
+## Author
+
+Author : [Arijit Banerjee](https://www.github.com/ArijitCodes)
+
+About : Full Stack Web Developer | Cyber Security Enthusiast | Actor
+
+Social Media : &nbsp;
+[![Instagram](https://i.ibb.co/4t76vTc/insta-transparent-14px.png) Instagram](https://www.instagram.com.com/arijit.codes)
+&nbsp;
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/arijitban)
+&nbsp;
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/ArijitCodes)
+
+Email: arijit.codes@gmail.com
+
+<hr>
+
+## Live Demo
+
+For a Live Demo, check : ([Live Demo link will be updated here soon!](#))
+
+<hr>
+
+## Functionalities and Technologies Used
+
+`Main Technology Used` : ReactJS, NodeJS
+
+`Other Technologies` : Axios, React Hooks, JSX, JS, ES6, Bootstrap etc.
+
+<hr>
+
+## From the Developer:
+
+This is a Self Project, made on ReactJS. This is a fun project I made for my fellow Space Enthusiasts. The Data used in different features of this app, directly comes from NASA's servers. Every day the data changes automatically.
+
+If you have any suggestions, please feel free to leave the suggestions. Constructive Criticism is always appreciated.
+
+NOTE: This App is Still Under Development and more features will come soon!
+
+<hr>
+
+<hr>
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
