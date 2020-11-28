@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
-// COmponents
+// Components
 import Navbar from "./components/layouts/Navbar";
 import Apod from "./components/apod/Apod";
 import Home from "./components/pages/Home";
