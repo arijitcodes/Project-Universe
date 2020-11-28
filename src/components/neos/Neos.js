@@ -59,7 +59,7 @@ const Neos = () => {
           </p>
         </div>
       </div> */}
-      {loading == true ? (
+      {loading === true ? (
         <Spinner />
       ) : (
         <div className="container-sm text-light">

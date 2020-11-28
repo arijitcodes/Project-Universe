@@ -1,5 +1,3 @@
-import React from "react";
-
 const Datetime = () => {
   let dd = new Date();
   let d = new Date(dd.getTime() - 1 * 24 * 60 * 60 * 1000);

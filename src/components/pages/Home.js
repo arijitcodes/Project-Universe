@@ -1,7 +1,6 @@
 import React from "react";
 
 import Cards from "../layouts/Cards";
-import Datetime from "../Datetime";
 
 const Home = () => {
   return (
