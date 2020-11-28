@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 38px;
+}
+
 a.custom-social {
   text-decoration: none;
   font-size: 25px;
@@ -7,10 +11,6 @@ a.custom-social {
 a.custom-link {
   text-decoration: none;
   color: white;
-}
-
-body {
-  margin-bottom: 38px;
 }
 
 /* .App {

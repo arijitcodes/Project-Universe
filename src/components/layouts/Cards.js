@@ -3,26 +3,6 @@ import Card from "./Card";
 
 const Cards = () => {
   return (
-    // <div className="row justify-content-center">
-    //   <div className="mt-2 mb-2 col-lg-4 col-md-6 col-sm-12">
-    //     <Card />
-    //   </div>
-    //   <div className="mt-2 mb-2 col-lg-4 col-md-6 col-sm-12">
-    //     <Card />
-    //   </div>
-    //   <div className="mt-2 mb-2 col-lg-4 col-md-6 col-sm-12">
-    //     <Card />
-    //   </div>
-    //   <div className="mt-2 mb-2 col-lg-4 col-md-6 col-sm-12">
-    //     <Card />
-    //   </div>
-    //   <div className="mt-2 mb-2 col-lg-4 col-md-6 col-sm-12">
-    //     <Card />
-    //   </div>
-    //   <div className="mt-2 mb-2 col-lg-4 col-md-6 col-sm-12">
-    //     <Card />
-    //   </div>
-    // </div>
     <>
       <div className="row justify-content-center">
         <div className="card-group ">
@@ -50,6 +30,7 @@ const Cards = () => {
             buttonText="Let's Check it Out"
             linkTo="about"
           />
+          {/* DEMO CARD FOR FUTURE USE */}
           {/* <Card
             title="Near Earth Objects - Asteroids"
             body=" Ever wanted to see an Asteroid passing by ? Or may be some 'Unknown Object in the Space ;) ?"

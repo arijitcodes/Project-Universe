@@ -23,7 +23,6 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/mars" component={Mars} />
         </Switch>
-        {/* <Cards /> */}
       </div>
       <Footer />
     </Router>

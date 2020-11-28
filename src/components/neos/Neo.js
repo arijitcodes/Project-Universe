@@ -56,46 +56,9 @@ const Neo = ({ stateData, date }) => {
                   </tr>
                 );
               })}
-
-            {/* <tr>
-              <th scope="row">
-                {stateData && stateData.near_earth_objects[date][0].id}
-              </th>
-              <td>{stateData && stateData.near_earth_objects[date][0].name}</td>
-              <td>
-                {stateData &&
-                stateData.near_earth_objects[date][0]
-                  .is_potentially_hazardous_asteroid
-                  ? "True"
-                  : "False"}
-              </td>
-              <td>
-                {stateData &&
-                  stateData.near_earth_objects[date][0].close_approach_data[0]
-                    .miss_distance.kilometers}
-              </td>
-              <td>
-                {stateData &&
-                  stateData.near_earth_objects[date][0].close_approach_data[0]
-                    .miss_distance.kilometers}
-              </td>
-              <td>
-                {stateData &&
-                  stateData.near_earth_objects[date][0].close_approach_data[0]
-                    .relative_velocity.kilometers_per_hour}
-              </td>
-              <td>
-                <button type="button" className="btn btn-outline-info">
-                  Check
-                </button>
-              </td>
-            </tr> */}
           </tbody>
         </table>
       </div>
-      {/* ) : (
-        "NO DATA"
-      )} */}
     </>
   );
 };

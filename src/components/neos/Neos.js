@@ -25,8 +25,7 @@ const Neos = () => {
         const tempData = await axios.get(api);
         setData(tempData.data);
         setLoading(false);
-        // console.log("Data Fetched Successfully!");
-        // console.log(data.near_earth_objects[Datetime()][0].id);
+        //
       } catch (error) {
         setLoading(false);
         console.error(error);
@@ -42,23 +41,6 @@ const Neos = () => {
 
   return (
     <>
-      {/* <div
-        className="mx-auto my-auto text-light d-flex align-items-center justify-content-center"
-        align="center"
-        style={{ height: "90vh" }}
-      >
-        <div style={{ backgroundColor: "rgb(0,0,0,0.5)" }}>
-          <p>
-            <h1>Asteroids - NEOs (Near Earth Objects)</h1>
-          </p>
-          <p>
-            <h4>This feature is still under Development.</h4>
-          </p>
-          <p>
-            <h2>Coming Soon!</h2>
-          </p>
-        </div>
-      </div> */}
       {loading === true ? (
         <Spinner />
       ) : (

@@ -11,10 +11,9 @@ const About = () => {
       <div align="center" className="my-4">
         <img src={Icon} alt="Icon" height="150px" width="150px" />
       </div>
-      <div
-        className="card-group mt-4"
-        style={{ backgroundColor: "rgb(0,0,0,0" }}
-      >
+
+      {/* ABOUT PROJECT UNIVERSE */}
+      <div className="card-group mt-4">
         <div className="row justify-content-center text-light">
           <div className="col-lg-8 col-md-10 col-sm-12">
             <div
@@ -25,24 +24,7 @@ const About = () => {
                 width: "100%",
               }}
             >
-              {/* <div className="card-header border-0">
-                <h5 className="card-title">About the Project</h5>
-              </div> */}
-              {/* <div className="card-body"> */}
-              {/* <h5 className="card-title">Success card title</h5> */}
-              {/* <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p> */}
               <table className="table table-responsive-md text-white m-0 px-3">
-                {/* <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">First</th>
-                      <th scope="col">Last</th>
-                      <th scope="col">Handle</th>
-                    </tr>
-                  </thead> */}
                 <tbody>
                   <tr>
                     <td align="right">Project:</td>
@@ -85,8 +67,6 @@ const About = () => {
                   </tr>
                 </tbody>
               </table>
-              {/* </div> */}
-              {/* <div className="card-footer border-0">Footer</div> */}
             </div>
           </div>
 
@@ -97,12 +77,8 @@ const About = () => {
                 backgroundColor: "rgba(0, 0, 0, 0)",
               }}
             >
-              {/* <div className="card-header border-warning"></div> */}
               <div className="card-body m-0">
-                {/* <h5 className="card-title">Success card title</h5> */}
                 <p className="card-text">
-                  {/* Some quick example text to build on the card title and make up
-                  the bulk of the card's content. */}
                   <img
                     src={Icon}
                     className=""
@@ -112,26 +88,12 @@ const About = () => {
                   />
                 </p>
               </div>
-              {/* <div className="card-footer border-warning"></div> */}
             </div>
           </div>
         </div>
       </div>
-      {/* <div
-        className="github-card"
-        data-github="ArijitCodes"
-        data-width="400"
-        data-height="150"
-        data-theme="default"
-      ></div>
-      <div
-        className="github-card"
-        data-github="ArijitCodes"
-        data-width="400"
-        data-height="317"
-        data-theme="medium"
-      ></div> */}
 
+      {/* ABOUT THE DEVELOPER */}
       <div id="aboutTheDeveloper">
         <div className="row justify-content-center text-light">
           <div className="col-lg-8 col-md-10 col-sm-12">
@@ -150,8 +112,6 @@ const About = () => {
                     <div id="DPandSocials">
                       <div>
                         <p className="card-text text-center">
-                          {/* Some quick example text to build on the card title and make up
-                  the bulk of the card's content. */}
                           <img
                             src="https://media-exp1.licdn.com/dms/image/C4E03AQEtdvOYW7rg4Q/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=x0JQznbHpJHI2VdJ2VthlUcAJli_vuMZ-lPSAqcNuZo"
                             className="rounded-circle m-3"
