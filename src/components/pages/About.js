@@ -132,7 +132,7 @@ const About = () => {
         data-theme="medium"
       ></div> */}
 
-      <div>
+      <div id="aboutTheDeveloper">
         <div className="row justify-content-center text-light">
           <div className="col-lg-8 col-md-10 col-sm-12">
             <div
@@ -165,6 +165,7 @@ const About = () => {
                         <a
                           href="https://instagram.com/arijit.codes"
                           className="fab fa-instagram custom-social mx-3 mb-2"
+                          title="Instagram"
                           target="_blank"
                           rel="noreferrer"
                           // style={{
@@ -178,6 +179,7 @@ const About = () => {
                         <a
                           href="https://linkedin.com/in/arijitban"
                           className="fab fa-linkedin custom-social mx-3 mb-2"
+                          title="LinkedIn"
                           target="_blank"
                           rel="noreferrer"
                           // style={{
@@ -191,6 +193,7 @@ const About = () => {
                         <a
                           href="https://github.com/ArijitCodes"
                           className="fab fa-github custom-social mx-3 mb-2"
+                          title="GitHub"
                           target="_blank"
                           rel="noreferrer"
                           // style={{
@@ -238,7 +241,15 @@ const About = () => {
                             Contact:
                           </td>
                           <td className="align-middle">
-                            arijit.codes@gmail.com
+                            <a
+                              href="mailto:arijit.codes@gmail.com"
+                              className="custom-link"
+                              title="Contact Me!"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              arijit.codes@gmail.com
+                            </a>
                           </td>
                         </tr>
                         <tr>
@@ -249,16 +260,13 @@ const About = () => {
                             <a
                               href="https://drive.google.com/drive/folders/16fyPdaD4kF32LHCfp5KjyuMofex6JAOo?usp=sharing"
                               className="custom-link"
+                              title="Have a look at my Resume"
                               target="_blank"
                               rel="noreferrer"
                             >
                               <u>Click Here to check my Resume</u>
                             </a>
                           </td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
                         </tr>
                       </tbody>
                     </table>

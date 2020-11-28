@@ -9,6 +9,7 @@ import Home from "./components/pages/Home";
 import Neos from "./components/neos/Neos";
 import About from "./components/pages/About";
 import Mars from "./components/mars/Mars";
+import Footer from "./components/layouts/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </Switch>
         {/* <Cards /> */}
       </div>
+      <Footer />
     </Router>
   );
 }

@@ -9,6 +9,10 @@ a.custom-link {
   color: white;
 }
 
+body {
+  margin-bottom: 38px;
+}
+
 /* .App {
   text-align: center;
 }
