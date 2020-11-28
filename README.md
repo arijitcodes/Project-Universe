@@ -7,7 +7,7 @@ Author : [Arijit Banerjee](https://www.github.com/ArijitCodes)
 About : Full Stack Web Developer | Cyber Security Enthusiast | Actor
 
 Social Media : &nbsp;
-[![Instagram](https://i.ibb.co/4t76vTc/insta-transparent-14px.png) Instagram](https://www.instagram.com.com/arijit.codes)
+[![Instagram](https://i.ibb.co/4t76vTc/insta-transparent-14px.png) Instagram](https://www.instagram.com/arijit.codes)
 &nbsp;
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/arijitban)
 &nbsp;
