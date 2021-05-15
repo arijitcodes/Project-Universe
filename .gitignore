@@ -8,6 +8,9 @@
 .env
 .eslintcache
 
+#netlify
+.netlify
+
 # testing
 /coverage
 

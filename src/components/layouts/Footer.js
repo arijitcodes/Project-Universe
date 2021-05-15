@@ -2,10 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const click = (e) => {
-    e.preventDefault();
-    window.location.href = "/about#aboutTheDeveloper";
-  };
   return (
     <footer className="fixed-bottom">
       <div
