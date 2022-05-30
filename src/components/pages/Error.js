@@ -15,7 +15,7 @@ const Error = () => {
         </p>
         <p>
           <h4 className="text-warning">Are you lost, baby Alien ?</h4>
-          <h6>Because, the page you are looking for, doe not exist!</h6>
+          <h6>Because, the page you are looking for, does not exist!</h6>
           Please get back in your spaceship and go back home...
         </p>
         <p>

@@ -113,7 +113,7 @@ const About = () => {
                       <div>
                         <p className="card-text text-center">
                           <img
-                            src="https://media-exp1.licdn.com/dms/image/C4E03AQEtdvOYW7rg4Q/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=x0JQznbHpJHI2VdJ2VthlUcAJli_vuMZ-lPSAqcNuZo"
+                            src="https://avatars.githubusercontent.com/u/72866688?v=4"
                             className="rounded-circle m-3"
                             alt="Icon"
                             height="150px"
@@ -218,7 +218,7 @@ const About = () => {
                           </td>
                           <td className="align-middle">
                             <a
-                              href="https://drive.google.com/drive/folders/16fyPdaD4kF32LHCfp5KjyuMofex6JAOo?usp=sharing"
+                              href="https://drive.google.com/drive/folders/1imfxd-ZGMxfpvmSc0ubqWolq62YhA-lv?usp=sharing"
                               className="custom-link"
                               title="Have a look at my Resume"
                               target="_blank"
